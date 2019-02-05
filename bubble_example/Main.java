@@ -21,7 +21,7 @@ public class Main extends Application {
     Group group = new Group();
 
     Bubble b1 = new Bubble("Hey, what's up?", "11:14");
-    Bubble b2 = new Bubble("I am fine, thanks.\nHave you heard about the new zeppelbub library\nfor creating fancy chatbubbles?", "11:18 ✓");
+    Bubble b2 = new Bubble("I am fine, thanks.\nHave you heard about the new bluebub library\nfor creating fancy chatbubbles?", "11:18 ✓");
     Bubble b3 = new Bubble("Yes, it is awesome!", "11:19");
     Bubble b4 = new Bubble("I know, that's why I am using it in my chat project...", "11:22 ✓");
 
