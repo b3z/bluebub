@@ -11,7 +11,7 @@ A library for creating chat bubbles in JavaFX
 ### What can I do with it?
 
 Create nice chatbubbles is all colors and styles.
-
+![example picture](https://github.com/bluebub/chat_example/chat_example.jpg "chat example picture")
 
 
 
