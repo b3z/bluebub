@@ -33,6 +33,8 @@ public class Bubble extends Group {
 	private Paint metaColor = Color.LIGHTGRAY; 
 
 	private Paint bubbleColor = Color.rgb(0, 126, 229); 
+	
+	private int edgeRadius = 30;
 
 	/**
 	 * create a chat bubble
@@ -108,12 +110,28 @@ public class Bubble extends Group {
 		r.setWidth(w);
 		r.setHeight(h);
 
-		r.setArcHeight(30);
-		r.setArcWidth(30);
+		r.setArcHeight(this.edgeRadius);
+		r.setArcWidth(this.edgeRadius);
 
 		r.setFill(bubbleColor);
 
 		getChildren().addAll(r, l, m);
+	}
+	/**
+	* set the radius of the bubble edges
+	* @param radius
+	*/
+	public void setEdgeRadius(int radius) {
+		this.edgeRadius = radius;
+	}
+	
+	/**
+	* get the radius of the bubble edges
+	*
+	* @return
+	*/
+	public int getEdgeRadius() {
+		return this.edgeRadius;	
 	}
 
 	/**
