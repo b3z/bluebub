@@ -11,7 +11,7 @@ import javafx.scene.text.Text;
 /**
  * 
  * @author zeppel
- * @web https://zeppel.ml
+ * @web https://zeppel.eu
  * @github github.com/zeppelsoftware
  * 
  * @version 1
